@@ -34,34 +34,34 @@ const RegistrationCTA = () => {
       </div>
       
       <div className="relative z-10 max-w-4xl mx-auto text-center">
-        <Flame className="w-16 h-16 mx-auto mb-6 text-accent animate-ember-flicker" />
-        
-        <h2 className="text-3xl md:text-5xl lg:text-6xl font-display font-bold mb-6 text-gold-glow">
+        <Flame className="w-12 h-12 sm:w-16 sm:h-16 mx-auto mb-4 sm:mb-6 text-accent animate-ember-flicker" />
+
+        <h2 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-display font-bold mb-4 sm:mb-6 text-gold-glow leading-tight">
           Call to Arms
         </h2>
-        
-        <p className="text-xl md:text-2xl lg:text-3xl font-display mb-4 text-foreground">
+
+        <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-display mb-3 sm:mb-4 text-foreground leading-snug">
           The Iron Throne of Business awaits.
         </p>
-        
-        <p className="text-lg md:text-xl mb-8 text-muted-foreground">
+
+        <p className="text-base sm:text-lg md:text-xl mb-6 sm:mb-8 text-muted-foreground">
           Do you have the strategy to seize it?
         </p>
-        
-        <div className="mb-8">
-        <p className="text-2xl md:text-3xl font-display font-bold text-accent mb-2">
-          🔥 Join the War of Wits &mdash; Register Now! 🔥
-        </p>
+
+        <div className="mb-6 sm:mb-8">
+          <p className="text-lg sm:text-2xl md:text-3xl font-display font-bold text-accent mb-2 leading-relaxed">
+            🔥 Join the War of Wits &mdash; Register Now! 🔥
+          </p>
         </div>
-        
+
         <Button
           size="lg"
-          className="bg-primary text-primary-foreground hover:bg-primary/90 text-xl md:text-2xl px-12 py-8 font-display font-bold shadow-[0_0_40px_hsl(var(--gold-glow)/0.6)] hover:shadow-[0_0_60px_hsl(var(--gold-glow)/1)] transition-all duration-300 hover:scale-110"
+          className="bg-primary text-primary-foreground hover:bg-primary/90 text-lg sm:text-xl md:text-2xl px-8 sm:px-12 py-6 sm:py-8 font-display font-bold shadow-[0_0_40px_hsl(var(--gold-glow)/0.6)] hover:shadow-[0_0_60px_hsl(var(--gold-glow)/1)] transition-all duration-300 hover:scale-110"
         >
           Join the Realm
         </Button>
-        
-        <p className="mt-6 text-sm md:text-base text-muted-foreground font-display">
+
+        <p className="mt-4 sm:mt-6 text-sm md:text-base text-muted-foreground font-display">
           Forge your legacy before the boardroom gates close.
         </p>
       </div>

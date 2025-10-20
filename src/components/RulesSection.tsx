@@ -37,11 +37,11 @@ const RulesSection = () => {
   return (
     <section className="relative py-20 px-4">
       <div className="max-w-6xl mx-auto">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-5xl font-display font-bold mb-4 text-gold-glow">
+        <div className="text-center mb-8 sm:mb-12">
+          <h2 className="text-2xl sm:text-3xl md:text-5xl font-display font-bold mb-3 sm:mb-4 text-gold-glow">
             ⚖️ Rules of Engagement
           </h2>
-          <p className="text-lg md:text-xl text-muted-foreground font-display">
+          <p className="text-base sm:text-lg md:text-xl text-muted-foreground font-display">
             The Code of the Realm
           </p>
         </div>
@@ -58,11 +58,11 @@ const RulesSection = () => {
                 <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent/5 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 
                 <div className="relative">
-                  <Icon className="w-12 h-12 text-primary mb-4 group-hover:text-accent transition-colors duration-300 animate-ember-flicker" />
-                  <h3 className="text-xl font-display font-bold mb-3 text-foreground group-hover:text-primary transition-colors duration-300">
+                  <Icon className="w-10 h-10 sm:w-12 sm:h-12 text-primary mb-3 sm:mb-4 group-hover:text-accent transition-colors duration-300 animate-ember-flicker" />
+                  <h3 className="text-lg sm:text-xl font-display font-bold mb-2 sm:mb-3 text-foreground group-hover:text-primary transition-colors duration-300">
                     {rule.title}
                   </h3>
-                  <p className="text-muted-foreground leading-relaxed">
+                  <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
                     {rule.description}
                   </p>
                 </div>
@@ -71,8 +71,8 @@ const RulesSection = () => {
           })}
         </div>
         
-        <div className="text-center mt-12">
-          <p className="text-xl md:text-2xl font-display font-bold text-primary">
+        <div className="text-center mt-8 sm:mt-12">
+          <p className="text-lg sm:text-xl md:text-2xl font-display font-bold text-primary">
             👑 Rule smart, think bold, play fair — the throne awaits! 🔥
           </p>
         </div>

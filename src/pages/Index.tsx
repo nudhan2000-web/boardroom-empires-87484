@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { ArrowLeft } from 'lucide-react';
 import LoadingScreen from '@/components/LoadingScreen';
+import StickyNav from '@/components/StickyNav';
 import HeroSection from '@/components/HeroSection';
 import EventDescription from '@/components/EventDescription';
 import RulesSection from '@/components/RulesSection';
@@ -16,23 +17,24 @@ const Index = () => {
   return (
     <>
       {isLoading && <LoadingScreen onComplete={() => setIsLoading(false)} />}
-      
-      {/* Back Button */}
-      <a 
-        href="https://intemstellar-nu.vercel.app/" 
-        className="fixed top-4 left-4 z-50"
+
+      <StickyNav />
+
+      <a
+        href="https://intemstellar-nu.vercel.app/"
+        className="fixed top-16 left-4 z-40 md:top-4"
       >
-        <Button 
-          variant="outline" 
-          size="lg"
-          className="gap-2"
+        <Button
+          variant="outline"
+          size="sm"
+          className="gap-2 md:size-default"
         >
           <ArrowLeft className="w-4 h-4" />
-          Back
+          <span className="hidden md:inline">Back</span>
         </Button>
       </a>
-      
-      <main className="min-h-screen">
+
+      <main className="min-h-screen pt-16">
         <HeroSection />
         <EventDescription />
         <RulesSection />

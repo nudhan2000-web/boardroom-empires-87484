@@ -38,33 +38,33 @@ const HeroSection = () => {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 text-center px-4 max-w-5xl mx-auto">
-        <Crown className="w-16 h-16 md:w-24 md:h-24 mx-auto mb-6 text-primary animate-glow-pulse" />
-        
-        <h1 className="text-4xl md:text-7xl lg:text-8xl font-display font-bold mb-6 text-gold-glow">
+      <div className="relative z-10 text-center px-4 sm:px-6 max-w-5xl mx-auto">
+        <Crown className="w-12 h-12 sm:w-16 sm:h-16 md:w-24 md:h-24 mx-auto mb-4 sm:mb-6 text-primary animate-glow-pulse" />
+
+        <h1 className="text-3xl sm:text-4xl md:text-7xl lg:text-8xl font-display font-bold mb-4 sm:mb-6 text-gold-glow leading-tight">
           CAPITALYZE
         </h1>
-        
-        <h2 className="text-2xl md:text-4xl lg:text-5xl font-display mb-8 text-foreground">
+
+        <h2 className="text-xl sm:text-2xl md:text-4xl lg:text-5xl font-display mb-6 sm:mb-8 text-foreground leading-snug">
           The Game of Business Thrones
         </h2>
-        
-        <p className="text-lg md:text-2xl mb-4 text-muted-foreground max-w-3xl mx-auto">
+
+        <p className="text-base sm:text-lg md:text-2xl mb-3 sm:mb-4 text-muted-foreground max-w-3xl mx-auto leading-relaxed">
           Welcome to the ultimate boardroom battlefield — where empires rise and fall.
         </p>
-        
-        <div className="flex flex-col md:flex-row items-center justify-center gap-4 text-xl md:text-2xl font-display mb-12">
+
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 text-lg sm:text-xl md:text-2xl font-display mb-8 sm:mb-12">
           <span className="hover-gold-glow">Strategize ⚡</span>
-          <span className="hidden md:inline text-primary">•</span>
+          <span className="hidden sm:inline text-primary">•</span>
           <span className="hover-gold-glow">Dominate ⚔️</span>
-          <span className="hidden md:inline text-primary">•</span>
+          <span className="hidden sm:inline text-primary">•</span>
           <span className="hover-gold-glow">Capitalyze 👑</span>
         </div>
-        
+
         <Button
           size="lg"
           onClick={scrollToDescription}
-          className="bg-primary text-primary-foreground hover:bg-primary/90 text-lg md:text-xl px-8 py-6 font-display font-bold shadow-[0_0_30px_hsl(var(--gold-glow)/0.5)] hover:shadow-[0_0_50px_hsl(var(--gold-glow)/0.8)] transition-all duration-300 hover:scale-105"
+          className="bg-primary text-primary-foreground hover:bg-primary/90 text-base sm:text-lg md:text-xl px-6 sm:px-8 py-5 sm:py-6 font-display font-bold shadow-[0_0_30px_hsl(var(--gold-glow)/0.5)] hover:shadow-[0_0_50px_hsl(var(--gold-glow)/0.8)] transition-all duration-300 hover:scale-105"
         >
           Enter the Boardroom
         </Button>
