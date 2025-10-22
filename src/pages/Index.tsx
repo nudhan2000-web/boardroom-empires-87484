@@ -4,10 +4,12 @@ import LoadingScreen from '@/components/LoadingScreen';
 import StickyNav from '@/components/StickyNav';
 import HeroSection from '@/components/HeroSection';
 import EventDescription from '@/components/EventDescription';
+import DomainsSection from '@/components/DomainsSection';
 import RulesSection from '@/components/RulesSection';
 import RoundsTimeline from '@/components/RoundsTimeline';
 import RegistrationCTA from '@/components/RegistrationCTA';
 import CoordinatorsSection from '@/components/CoordinatorsSection';
+import FinalRegistrationCTA from '@/components/FinalRegistrationCTA';
 import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 
@@ -37,10 +39,12 @@ const Index = () => {
       <main className="min-h-screen pt-16">
         <HeroSection />
         <EventDescription />
+        <DomainsSection />
         <RulesSection />
         <RoundsTimeline />
         <RegistrationCTA />
         <CoordinatorsSection />
+        <FinalRegistrationCTA />
         <Footer />
       </main>
     </>

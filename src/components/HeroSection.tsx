@@ -3,8 +3,8 @@ import { Button } from './ui/button';
 import heroImage from '@/assets/throne-hero.jpg';
 
 const HeroSection = () => {
-  const scrollToDescription = () => {
-    document.getElementById('event-description')?.scrollIntoView({ behavior: 'smooth' });
+  const scrollToDomains = () => {
+    document.getElementById('domains')?.scrollIntoView({ behavior: 'smooth' });
   };
 
   return (
@@ -63,10 +63,10 @@ const HeroSection = () => {
 
         <Button
           size="lg"
-          onClick={scrollToDescription}
+          onClick={scrollToDomains}
           className="bg-primary text-primary-foreground hover:bg-primary/90 text-base sm:text-lg md:text-xl px-6 sm:px-8 py-5 sm:py-6 font-display font-bold shadow-[0_0_30px_hsl(var(--gold-glow)/0.5)] hover:shadow-[0_0_50px_hsl(var(--gold-glow)/0.8)] transition-all duration-300 hover:scale-105"
         >
-          Enter the Boardroom
+          Domains
         </Button>
       </div>
     </section>
