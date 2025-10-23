@@ -25,7 +25,7 @@ const LoadingScreen = ({ onComplete }: LoadingScreenProps) => {
 
   return (
     <div
-      className="fixed inset-0 z-50 flex flex-col items-center justify-center transition-opacity duration-1000"
+      className="fixed inset-0 z-[9999] flex flex-col items-center justify-center transition-opacity duration-1000 w-screen h-screen"
       style={{
         backgroundColor: '#cbccc0',
         opacity: progress >= 100 ? 0 : 1,
